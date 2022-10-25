@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         result.setText("Nome: " + nome + "\nEmail: " + email);
     }
 
-    public void limpar () {
-
+    public void limpar (View view) {
+        inputName.setText("");
+        inputEmail.setText("");
+        result.setText("Resultado");
     }
 }
